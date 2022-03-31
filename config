@@ -1,0 +1,21 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[submodule]
+	active = .
+[remote "origin"]
+	url = https://github.com/MariaBloom2/compute.rhino3d.appserver.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[remote "upstream"]
+	url = https://github.com/dav-leon/compute.rhino3d.appserver.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+[remote "heroku"]
+	url = https://git.heroku.com/limitless-lake-60626.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
